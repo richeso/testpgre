@@ -1,4 +1,4 @@
-curl -X POST  --data "name=Whisky&breed=annoying&age=3&sex=f" http://localhost:8000/api/puppies
-curl -X PUT --data "name=Hunter&breed=annoying&age=33&sex=m" http://localhost:8000/api/puppies/1
+curl -X POST  --data "name=Whisky&breed=annoying&age=3&sex=f" http://localhost:3000/api/puppies
+curl -X PUT --data "name=Hunter&breed=annoying&age=33&sex=m" http://localhost:3000/api/puppies/1
 curl -X DELETE http://127.0.0.1:3000/api/puppies/1
 curl -X GET  http://localhost:3000/api/puppies
